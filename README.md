@@ -1,8 +1,12 @@
-[![](https://img.shields.io/pypi/pyversions/detect.svg?longCache=True)](https://pypi.org/pypi/detect/)
-[![](https://img.shields.io/pypi/v/detect.svg?maxAge=3600)](https://pypi.org/pypi/detect/)
+<!--
+https://pypi.org/project/readme-generator/
+-->
+
+[![](https://img.shields.io/pypi/pyversions/detect.svg?longCache=True)](https://pypi.org/project/detect/)
+[![](https://img.shields.io/pypi/v/detect.svg?maxAge=3600)](https://pypi.org/project/detect/)
 [![Travis](https://api.travis-ci.org/looking-for-a-job/detect.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/detect.py/)
 
-#### Install
+#### Installation
 ```bash
 $ [sudo] pip install detect
 ```
@@ -26,4 +30,12 @@ variable|description
 `detect.py2`| True if python is 2.x
 `detect.py3`| True if python is 3.x
 
-<p align="center"><a href="https://pypi.org/project/readme-md/">readme-md</a> - README.md generator</p>
+##### Docker
+
+variable|description
+-|-
+`detect.docker`| True if running inside a Docker container
+
+<p align="center">
+    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+</p>
